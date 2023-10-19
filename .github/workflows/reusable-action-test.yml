@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call CodeQL Reusable Workflow
-        uses: github-actions-course-nxbster/codeql-action@v1
+        uses: github-actions-course-nxbster/codeql-action@v0.1

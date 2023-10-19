@@ -4,4 +4,5 @@ on: push
 
 jobs:
   test-reusable-action:
+    permissions: write-all
     uses: github-actions-course-nxbster/codeql-action/.github/workflows/codeql.yml@main

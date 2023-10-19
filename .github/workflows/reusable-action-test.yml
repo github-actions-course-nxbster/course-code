@@ -4,7 +4,4 @@ on: push
 
 jobs:
   test-reusable-action:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Call CodeQL Reusable Workflow
-        uses: github-actions-course-nxbster/codeql-action@v0.1
+    uses: github-actions-course-nxbster/codeql-action@v0.1

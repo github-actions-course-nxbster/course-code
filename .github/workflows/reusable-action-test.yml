@@ -4,4 +4,4 @@ on: push
 
 jobs:
   test-reusable-action:
-    uses: github-actions-course-nxbster/codeql-action@v0.1
+    uses: github-actions-course-nxbster/codeql-action/.github/workflows/codeql.yml

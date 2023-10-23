@@ -12,3 +12,5 @@ jobs:
     name: Testing Composite Actions Workflow
     steps:
       - uses: github-actions-course-nxbster/codeql-action@main
+        with:
+          LANGUAGE: csharp

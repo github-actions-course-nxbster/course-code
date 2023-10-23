@@ -18,4 +18,4 @@ jobs:
     steps:
       - uses: github-actions-course-nxbster/codeql-action@main
         with:
-          languages: ${{ matrix.language }}
+          language: ${{ matrix.language }}

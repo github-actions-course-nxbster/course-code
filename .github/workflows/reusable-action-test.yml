@@ -8,7 +8,7 @@ jobs:
     #uses: github-actions-course-nxbster/codeql-action/.github/workflows/codeql.yml@main
 
   test-composite-action:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     name: Testing Composite Actions Workflow
     steps:
       - uses: github-actions-course-nxbster/codeql-action@main

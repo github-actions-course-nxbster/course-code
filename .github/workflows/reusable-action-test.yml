@@ -19,3 +19,7 @@ jobs:
       - uses: github-actions-course-nxbster/codeql-action@main
         with:
           language: ${{ matrix.language }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_PROJECT_NAME: 'AT'

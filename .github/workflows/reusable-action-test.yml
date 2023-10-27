@@ -1,3 +1,4 @@
+#Test
 name: CodeQL Scan with Jira Sync
 on: push
 
